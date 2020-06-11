@@ -10,7 +10,6 @@ import Foundation
 
 class Model {
     func getVideos(){
-        // make API call
         //1 create URL object
         let url = URL(string: Constants.API_URL)
         guard url != nil else { return}
